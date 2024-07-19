@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+    header{
+        background-image: url(/build/img/bg-hero-desktop.svg);
+    }
+
+}
