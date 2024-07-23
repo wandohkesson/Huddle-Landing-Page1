@@ -765,6 +765,10 @@ header{
   gap: 2.25rem;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
 .gap-x-10 {
   -moz-column-gap: 2.5rem;
        column-gap: 2.5rem;
@@ -778,6 +782,16 @@ header{
 .gap-x-0\.5 {
   -moz-column-gap: 0.125rem;
        column-gap: 0.125rem;
+}
+
+.gap-x-60 {
+  -moz-column-gap: 15rem;
+       column-gap: 15rem;
+}
+
+.gap-x-52 {
+  -moz-column-gap: 13rem;
+       column-gap: 13rem;
 }
 
 .space-y-3 > :not([hidden]) ~ :not([hidden]) {
