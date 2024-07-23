@@ -12,7 +12,7 @@
     </style>
 </head>
 
-<body class="min-h-screen bg-slate-50 dark:bg-black  dark:text-white">
+<body class="min-h-screen bg-slate-50 ">
     <header  class="bg-blue-50">
         <!--nav-->
         <div class="sm:p-14">
@@ -89,67 +89,159 @@
                     signed into your app, your users can start chatting immediately. </p>
             </div>
         </section>
+
+              
         
     </main>
 
-    <footer>
-        <section class="flex flex-col sm:flex-row">
-            <div class="flex justify-center items-center">
-            <div class="border-solid border-2 border-red-200 rounded-lg shadow-xl m-5">
-                <h1 class="text-center sm:text-left text-2xl font-bold p-3">Ready To Build Your Community?</h1>
-                <div class="flex justify-center items-center pb-5">
-                <button class="text-center bg-pink-400 border rounded-full px-10 py-2 sm:ml-4 text-white">Get Started For Free</button>
-            </div>
-            </div>
-        </div>
+    <footer class="container-fluid bg-cyan-950 mt-56 p-5 pb-6 relative">
+        <div class="flex flex-col justify-center items-center space-y-3 py-10 m-auto 
+            left-0 right-0 rounded-lg bottom-52 absolute
+            border shadow-md text-center w-1/2 bg-white -translate-y-64">
+
+            <h1 class="font-sans font-extrabold text-cyan-950 text-2xl mb-4">
+                Ready To Build Your Community?
+            </h1>
+            
+            <button class="rounded-full bg-pink-500 text-white
+                    mx-auto px-20 py-4 font-medium text-sm w-100 shadow-gray-500 shadow-sm">
+                    Get Started For Free  
+            </button>
+            
+        </div>   
+        
+        <!-- footer main content -->
+        <div class="container mt-36 p-5 flex flex-col gap-9">
+
+            <!-- logo beginning -->
             <div>
-                <img src="/build/img/logo.svg" alt="">
+                <img src="/build/img/logo.svg" alt="logo-image" 
+                class="w-24 h-6 sm:w-48 sm:h-12 mt-3 object-contain brightness-0 invert">  
             </div>
-        <div>
-            <div>
-                <ul >
-                    <li class="flex align-baseline">
-                        <i class="fa fa-map-marker" aria-hidden="true"></i>
-                        <p>Lorem ipsum  </p>
-                    </li>
-                    <li class="flex align-baseline">
-                        <i class="fa fa-phone" aria-hidden="true"></i>
-                        <p>+1-543-123-4567</p>
-                    </li>
-                    <li class="flex align-baseline">
-                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                        <p>example@huddle.com</p>
-                    </li>
+
+            <!-- logo end -->
+
+            <div class="container flex flex-row gap-x-52">
+
+                <div class="flex flex-col gap-4">
+                    <!-- location -->
+                    <div class="flex flex-row gap-4 justify-center">
+                        <div>
+                            <img src="/build/img/icon-location.svg" class="object-contain">
+                        </div>
+
+                        <div>
+                            <p class="text-white text-sm justify-center">
+                                Lorem ipsum dolor sit amet,consectetur <br>
+                                adipiscing elit, sed do eiusmod tempor <br>
+                                incididunt ut labore et dolore magne aliqua
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <!-- contact number -->
+                    <div class="flex flex-row gap-3">
+                        <div>
+                            <img src="/build/img/icon-phone.svg" class="object-contain">
+                        </div>
+
+                        <div>
+                            <p class="text-white text-sm justify-center">
+                                +1-543-123-4567
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <!-- Email -->
+                    <div class="flex flex-row gap-3">
+                        <div>
+                            <img src="/build/img/icon-email.svg" class="object-contain">
+                        </div>
+
+                        <div>
+                            <p class="text-white text-sm justify-center">
+                                example@huddle.com
+                            </p>
+                        </div>
+
+                    </div>
                     
-                </ul>
+                    <!-- 1st column of footer end -->
+
+                    
+                </div>
+
+                <!-- 2nd column begin -->
+                <div class="flex flex-col gap-4 text-white">
+                    <a href="#">
+                        About Us
+                    </a>
+
+                    <a href="#">
+                        What We Do
+                    </a>
+
+                    <a href="#">
+                        FAQ
+                    </a>
+                </div>
+
+                <!-- 3rd column begin -->
+                <div class="flex flex-col gap-4 text-white">
+                    <a href="#">
+                        Career
+                    </a>
+
+                    <a href="#">
+                        Blog
+                    </a>
+
+                    <a href="#">
+                        Contact Us
+                    </a>
+                </div>
+
+                <!-- 4th column -->
+                <div class="flex flex-row space-x-3">
+                    <div>
+                        <img src="/build/img/icon-facebook.svg" class="object-contain 
+                                border  brightness-0 invert rounded-full p-1 ">
+                    </div>
+
+                    <div>
+                        <img src="/build/img/icon-twitter.svg" class="object-contain 
+                                border  brightness-0 invert rounded-full p-1 ">
+                    </div>
+
+                    <div>
+                        <img src="/build/img/icon-instagram.svg" class="object-contain 
+                                border  brightness-0 invert rounded-full p-1 ">
+                    </div>
+                </div>
+                <!-- 4th column end -->
             </div>
-            <div>
-                <ul>
-                    <li>About Us</li>
-                    <li>What We do</li>
-                    <li>FAQ</li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li>Career</li>
-                    <li>Blog</li>
-                    <li>Contact Us</li>
-                </ul>
-            </div>
-            <div class="flex flex-col justify-center items-center ">
-                <ul class="flex flex-row justify-center items-center">
-                    <li><i class="fa fa-facebook-official" aria-hidden="true"></i></li>
-                    <li><i class="fa fa-twitter-square" aria-hidden="true"></i></li>
-                    <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
-                </ul>
-                <p class="text-center">&copy; copyright 2024 Dev_bak. All rights reserved</p>
-            </div>
-        </div> 
 
             
-        </section>
+        </div>
+        <!-- footer main content end -->
+
+        <!-- copyright information -->
+        <div class=" container-fluid flex flex-row gap-x-0.5 p-5 justify-end">
+            <div class="w-4">
+                <img src="/build/img/copyright.svg" class="object-contain 
+                           invert">
+            </div>
+
+            <div>
+                <p class="text-xs text-white">
+                    Copyright 2018 Huddle.All rights reserved.
+                </p>
+            </div>
+        </div>
     </footer>
+
 </body>
 
 </html>
